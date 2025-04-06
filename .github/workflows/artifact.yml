@@ -25,9 +25,7 @@ jobs:
     steps:
     - name: Download text file
       uses: actions/download-artifact@v4
-      with:
-      # Name of the artifact to download.
-      # Optional. Default is 'artifact'
+      with:      
         name: hello-artifact
         
     - name: Read text file
